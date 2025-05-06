@@ -20,4 +20,12 @@ class ModItems {
 
 		return item
 	}
+
+	fun initialize() {
+		// TODO: https://docs.fabricmc.net/develop/items/first-item#adding-the-item-to-an-item-group
+		// 	Add it to a group, so you can see the item in-game.
+	}
+
+	val BURNED_COOKIE: Item? =
+		register("burned_cookie", { settings: Item.Settings? -> Item(settings) }, Item.Settings())
 }
