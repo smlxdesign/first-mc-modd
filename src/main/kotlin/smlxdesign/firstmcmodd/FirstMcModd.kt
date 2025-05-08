@@ -12,7 +12,8 @@ object FirstMcModd : ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		logger.info("First MC Modd started :)")
+		logger.info("LET'S GOOOOOOO!")
+		logger.info("I have taken over your computer. If you want to remove virus, please send me £3500 in Google Play gift cards 😊")
 		ModItems.initialize()
 	}
 }
