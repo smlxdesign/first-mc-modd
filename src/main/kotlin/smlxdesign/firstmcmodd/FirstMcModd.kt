@@ -13,6 +13,6 @@ object FirstMcModd : ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		logger.info("First MC Modd started :)")
-		ModItems().initialize()
+		ModItems.initialize()
 	}
 }
