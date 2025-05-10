@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "first-mc-modd",
+  "id": "burnedcookie",
   "version": "${version}",
-  "name": "First mc modd",
-  "description": "My first mod. Built for Fabric :)",
+  "name": "Burned Cookie",
+  "description": "Adds burned cookies.",
   "authors": [
     "Me!"
   ],

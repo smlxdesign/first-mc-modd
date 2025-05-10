@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "first-mc-modd:item/burned_cookie"
+    "layer0": "burnedcookie:item/burned_cookie"
   }
 }

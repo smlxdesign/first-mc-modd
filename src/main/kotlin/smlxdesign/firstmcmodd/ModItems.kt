@@ -22,7 +22,7 @@ class ModItems {
 		fun register(
 			name: String, itemFactory: Function<Item.Settings, Item>, settings: Item.Settings
 		): Item {
-			val itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("first-mc-modd", name))
+			val itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("burnedcookie", name))
 			val item = itemFactory.apply(settings.registryKey(itemKey))
 			Registry.register(Registries.ITEM, itemKey, item)
 
