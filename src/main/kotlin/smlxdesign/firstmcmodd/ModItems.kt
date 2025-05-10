@@ -3,8 +3,13 @@ package smlxdesign.firstmcmodd
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.ModifyEntries
+import net.minecraft.component.type.ConsumableComponents
+import net.minecraft.component.type.FoodComponent
+import net.minecraft.entity.effect.StatusEffectInstance
+import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroups
+import net.minecraft.item.consume.ApplyEffectsConsumeEffect
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
@@ -29,7 +34,12 @@ class ModItems {
 				.register(ModifyEntries { itemGroup: FabricItemGroupEntries? -> itemGroup?.add(BURNED_COOKIE) })
 		}
 
-		val BURNED_COOKIE: Item =
-			register("burned_cookie", { settings: Item.Settings? -> Item(settings) }, Item.Settings())
+		val BURNED_COOKIE: Item = register(
+			"burned_cookie", { settings: Item.Settings? -> Item(settings) }, Item.Settings().food(
+					FoodComponent.Builder().nutrition(1).build(),
+					ConsumableComponents.food()
+						.consumeEffect(ApplyEffectsConsumeEffect(StatusEffectInstance(StatusEffects.POISON, 200))).build()
+				)
+		)
 	}
 }
