@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "smlxdesign.firstmcmodd.mixin",
+  "package": "smlxdesign.burnedcookie.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ExampleMixin"

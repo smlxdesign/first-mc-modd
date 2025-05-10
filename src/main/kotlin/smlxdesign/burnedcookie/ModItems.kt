@@ -1,4 +1,4 @@
-package smlxdesign.firstmcmodd
+package smlxdesign.burnedcookie
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
