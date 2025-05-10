@@ -1,4 +1,4 @@
-package smlxdesign.firstmcmodd.mixin.client;
+package smlxdesign.burnedcookie.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "first-mc-modd",
+  "id": "burnedcookie",
   "version": "${version}",
-  "name": "First mc modd",
-  "description": "My first mod. Built for Fabric :)",
+  "name": "Burned Cookie",
+  "description": "Adds burned cookies.",
   "authors": [
     "Me!"
   ],
@@ -12,18 +12,18 @@
     "sources": "https://github.com/smlxdesign/first-mc-modd"
   },
   "license": "BSD-3-Clause",
-  "icon": "assets/first-mc-modd/icon.png",
+  "icon": "assets/burnedcookie/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
-        "value": "smlxdesign.firstmcmodd.FirstMcModd",
+        "value": "smlxdesign.burnedcookie.Main",
         "adapter": "kotlin"
       }
     ],
     "client": [
       {
-        "value": "smlxdesign.firstmcmodd.FirstMcModdClient",
+        "value": "smlxdesign.burnedcookie.MainClient",
         "adapter": "kotlin"
       }
     ]
@@ -31,7 +31,7 @@
   "mixins": [
     "first-mc-modd.mixins.json",
     {
-      "config": "first-mc-modd.client.mixins.json",
+      "config": "burnedcookie.client.mixins.json",
       "environment": "client"
     }
   ],

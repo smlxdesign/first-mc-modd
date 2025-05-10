@@ -23,7 +23,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"first-mc-modd" {
+		"burnedcookie" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
