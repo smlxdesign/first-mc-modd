@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": "minecraft:cookie",
+  "result": {
+    "id": "burnedcookie:burned_cookie"
+  },
+  "experience": 0.1,
+}
