@@ -1,7 +1,6 @@
 package smlxdesign.firstmcmodd
 
 import net.fabricmc.api.ModInitializer
-import net.minecraft.item.Item
 import org.slf4j.LoggerFactory
 
 

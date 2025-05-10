@@ -36,10 +36,10 @@ class ModItems {
 
 		val BURNED_COOKIE: Item = register(
 			"burned_cookie", { settings: Item.Settings? -> Item(settings) }, Item.Settings().food(
-					FoodComponent.Builder().nutrition(1).build(),
-					ConsumableComponents.food()
-						.consumeEffect(ApplyEffectsConsumeEffect(StatusEffectInstance(StatusEffects.POISON, 200))).build()
-				)
+				FoodComponent.Builder().nutrition(1).build(),
+				ConsumableComponents.food()
+					.consumeEffect(ApplyEffectsConsumeEffect(StatusEffectInstance(StatusEffects.POISON, 200))).build()
+			)
 		)
 	}
 }
