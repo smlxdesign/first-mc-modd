@@ -29,7 +29,7 @@
     ]
   },
   "mixins": [
-    "first-mc-modd.mixins.json",
+    "burnedcookie.mixins.json",
     {
       "config": "burnedcookie.client.mixins.json",
       "environment": "client"
