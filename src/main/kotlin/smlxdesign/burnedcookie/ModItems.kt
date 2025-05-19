@@ -38,7 +38,7 @@ class ModItems {
 			"burned_cookie", { settings: Item.Settings? -> Item(settings) }, Item.Settings().food(
 				FoodComponent.Builder().nutrition(1).build(),
 				ConsumableComponents.food()
-					.consumeEffect(ApplyEffectsConsumeEffect(StatusEffectInstance(StatusEffects.POISON, 200))).build()
+					.consumeEffect(ApplyEffectsConsumeEffect(StatusEffectInstance(StatusEffects.WITHER, 200))).build()
 			)
 		)
 	}
