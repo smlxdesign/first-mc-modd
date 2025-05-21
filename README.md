@@ -2,6 +2,7 @@
 
 [![Available on GitHub](https://luken.cc/badges/github)](https://github.com/smlxdesign/first-mc-modd)
 [![Available on Modrinth](https://luken.cc/badges/modrinth)](https://modrinth.com/project/mn0GGHQK)
+[![Available on CurseForge](https://luken.cc/badges/curseforge)](https://curseforge.com/minecraft/mc-mods/burned-cookie)
 ![Available for Fabric](https://luken.cc/badges/fabric)
 
 > [!IMPORTANT]
